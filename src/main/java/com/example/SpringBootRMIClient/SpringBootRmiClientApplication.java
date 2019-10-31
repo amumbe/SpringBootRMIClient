@@ -22,9 +22,9 @@ public class SpringBootRmiClientApplication {
 		RMIService rmiService = SpringApplication.run(SpringBootRmiClientApplication.class, args)
 				.getBean(RMIService.class);
 
-		System.out.println("****************** Client Side ******************");
+		System.out.println("******** Client Side ********");
 
-		System.out.println(rmiService.SayHello("Ride the Pongi"));
+		System.out.println(rmiService.SayHello("Hello!"));
 	}
 
 }
